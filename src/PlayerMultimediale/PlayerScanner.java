@@ -6,6 +6,7 @@ public class PlayerScanner {
             Scanner input = new Scanner(System.in);
             PlayerMultimediale[] multimedia = new PlayerMultimediale[5];
 
+
                 System.out.println("Inserisci il titolo: ");
                 String titolo = input.nextLine();
 
@@ -13,12 +14,12 @@ public class PlayerScanner {
                 int durata = input.nextInt();
 
                 System.out.println("Inserisci il volume: ");
-                int volume= input.nextInt();
+                int volume = input.nextInt();
 
                 System.out.println("Inserisci la luminosita: ");
                 int luminosita = input.nextInt();
 
-                System.out.println("il titolo è " +" " + titolo + " " + "di durata" + " " + durata + " " + "volume" + " " + " " + "luminosità" + " " + luminosita);
+                System.out.println("il titolo è " + " " + titolo + " " + "di durata" + " " + durata + " " + "volume" + " " + " " + "luminosità" + " " + luminosita);
 
 
             input.close();
